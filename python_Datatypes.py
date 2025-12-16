@@ -17,3 +17,24 @@ print(var1, type(var1))
 print(var2, type(var2))
 print(var3, type(var3))
 print(var4, type(var4))
+
+# 2. Python String Data Type
+
+'''
+Python string is a sequence of one or more Unicode characters, enclosed in single, 
+double or triple quotation marks (also called inverted commas). Python strings are immutable 
+which means when you perform an operation on strings, you always produce a new string object 
+of the same type, rather than mutating an existing string.
+'''
+
+str1 = 'this is single quotes string'
+print(str1)
+str2 = "this is double quotes string"
+print(str2)
+str3 = '''This is triple qoutes string'''
+print(str3)
+str3 = """This is also triple quotes"""
+print(type(str1))
+
+# 3. Python Sequence Data Types
+
