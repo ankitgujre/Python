@@ -56,3 +56,6 @@ separated by commas and enclosed within square brackets ([]).
 
 li1 = [2023, "Python", 3.11, 5+6j, 1.23E-4]
 print(li1, type(li1))
+
+nlis = [['One', 'Two', 'Three'], [1,2,3], [1.0, 2.0, 3.0]]  # nested list
+print(nlis, type(nlis))
