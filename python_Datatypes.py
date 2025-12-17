@@ -38,3 +38,21 @@ print(type(str1))
 
 # 3. Python Sequence Data Types
 
+'''
+Sequence is a collection data type. It is an ordered collection of items. Items in the 
+sequence have a positional index starting with 0. It is conceptually similar to an array in 
+C or C++. There are following three sequence data types defined in Python.
+
+List Data Type
+Tuple Data Type
+Range Data Type
+'''
+# (a) Python List Data Type
+
+'''
+Python Lists are the most versatile compound data types. A Python list contains items 
+separated by commas and enclosed within square brackets ([]).
+'''
+
+li1 = [2023, "Python", 3.11, 5+6j, 1.23E-4]
+print(li1, type(li1))
