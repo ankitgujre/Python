@@ -71,3 +71,30 @@ print (tinylist * 2)    # Prints list two times
 print (list + tinylist) # Prints concatenated lists
 
 # slicing syntax sequence[start : stop : step]
+
+
+#-----------------(b) Python Tuple Data Type--------------------
+
+'''
+Tuples are used to store multiple items in a single variable.
+
+Tuple is one of 4 built-in data types in Python used to store collections of data, the other 
+3 are List, Set, and Dictionary, all with different qualities and usage.
+
+A tuple is a collection which is ordered and unchangeable.
+
+Tuples are written with round brackets.
+'''
+
+tup = (2023, "Python", 3.11, 5+6j, 1.23E-4)
+print(tup, type(tup))
+
+tuple = ( 'abcd', 786 , 2.23, 'john', 70.2  )
+tinytuple = (123, 'john')
+
+print (tuple)               # Prints the complete tuple
+print (tuple[0])            # Prints first element of the tuple
+print (tuple[1:3])          # Prints elements of the tuple starting from 2nd till 3rd 
+print (tuple[2:])           # Prints elements of the tuple starting from 3rd element
+print (tinytuple * 2)       # Prints the contents of the tuple twice
+print (tuple + tinytuple)   # Prints concatenated tuples
