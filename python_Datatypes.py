@@ -98,3 +98,24 @@ print (tuple[1:3])          # Prints elements of the tuple starting from 2nd til
 print (tuple[2:])           # Prints elements of the tuple starting from 3rd element
 print (tinytuple * 2)       # Prints the contents of the tuple twice
 print (tuple + tinytuple)   # Prints concatenated tuples
+
+# ------------------------(c) Python Range Data Type----------------------------
+'''
+A Python range is an immutable sequence of numbers which is typically used to iterate 
+through a specific number of items.
+
+It is represented by the Range class. The constructor of this class accepts a sequence of 
+numbers starting from 0 and increments to 1 until it reaches a specified number.
+'''
+
+# range(start, stop, step)
+
+for i in range(5):
+    print(i)
+    
+    
+for i in range(2, 5):
+    print(i)
+  
+for i in range(1, 5, 2):
+    print(i)
